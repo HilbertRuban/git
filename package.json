@@ -1,0 +1,27 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HilbertRuban/git.git"
+  },
+  "author": "Hilbert Ruban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HilbertRuban/git/issues"
+  },
+  "homepage": "https://github.com/HilbertRuban/git#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
